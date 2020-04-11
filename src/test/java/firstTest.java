@@ -1,6 +1,7 @@
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeMethod;
  import org.testng.annotations.Test;
 
@@ -12,7 +13,9 @@ public class firstTest {
     public void beforeMethod(){
         System.setProperty("webdriver.chrome.driver","C:\\Program Files\\chromedriver\\chromedriver.exe");
         driver = new ChromeDriver();
-        //driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+
+        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+
 
     }
   /*
@@ -38,7 +41,6 @@ public class firstTest {
     public void test2(){
 
         driver.get("https://www.phptravels.net/home");
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
         String firstname = "John";
         String lastname = "Tacker";
@@ -51,7 +53,6 @@ public class firstTest {
         driver.findElement(By.xpath("//input[@name='password']")).sendKeys("tacker123");
         driver.findElement(By.xpath("//input[@name='confirmpassword']")).sendKeys("tacker123");
         driver.findElement(By.xpath("//button[contains(@class ,'signupbtn')]")).click();
-        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 
         String actual = driver.findElement(By.cssSelector(".text-align-left")).getText();
                 Assert.assertEquals(actual, "Hi, "+firstname+" "+ lastname);
@@ -59,133 +60,24 @@ public class firstTest {
     @Test
     public void test3(){
         driver.get("https://phptravels.net/admin");
-        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         driver.findElement(By.xpath("//form[contains(@class,'form-signin')]//input[@name='email']")).sendKeys("admin@phptravels.com");
         driver.findElement(By.xpath("//form[contains(@class,'form-signin')]//input[@name='password']")).sendKeys("demoadmin");
         driver.findElement(By.xpath("//button[@type = 'submit']")).click();
-        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         driver.findElement(By.xpath("//a[@href='#ACCOUNTS']")).click();
         driver.findElement(By.xpath("//a[@href='#ACCOUNTS']/..//a[text() = 'Customers']")).click();
         driver.findElement(By.xpath("//a[text() = 'tacker@gmail.com']//../..//a[@title='DELETE']")).click();
         Alert confirmationAlert = driver.switchTo().alert();
         confirmationAlert.accept();
-        driver.get("https://phptravels.net/login");
-        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+        driver.findElement(By.xpath("//a[@id = 'dropdownCurrency']/i/..")).click();
+        driver.findElement(By.xpath("//a[text() = 'Login']")).click();
         driver.findElement(By.xpath("//input[@name='username']")).sendKeys("tacker@gmail.com");
         driver.findElement(By.xpath("//input[@name='password']")).sendKeys("tacker123");
         driver.findElement(By.xpath("//button[contains(@class , 'loginbtn')]")).click();
         String actual = driver.findElement(By.xpath("//div[@class = 'resultlogin']/div")).getText();
         Assert.assertEquals(actual, "Invalid Email or Password");
     }
-
+    @AfterClass
+    public void close(){
+        driver.quit();
+    }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
