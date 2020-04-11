@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="60782da8-f6c0-45dd-8749-5be72216151c" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1aJXKUYIaQnMEbLk108y9qaXEOd" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="firstTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="crashcource automation" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="firstTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="firstTest.test1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="crashcource automation" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="firstTest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="firstTest.test3" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="crashcource automation" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="firstTest" />
+      <option name="METHOD_NAME" value="test3" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.firstTest.test1" />
+        <item itemvalue="TestNG.firstTest.test3" />
+        <item itemvalue="TestNG.firstTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="60782da8-f6c0-45dd-8749-5be72216151c" name="Default Changelist" comment="" />
+      <created>1586454612186</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586454612186</updated>
+      <workItem from="1586454654064" duration="4078000" />
+      <workItem from="1586461318314" duration="4230000" />
+      <workItem from="1586467874953" duration="447000" />
+      <workItem from="1586544166648" duration="8252000" />
+      <workItem from="1586593879525" duration="3999000" />
+      <workItem from="1586608426834" duration="23000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1212" height="217" key="GridCell.Tab.0.bottom" timestamp="1586598355895">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1212" height="217" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1586598355895" />
+    <state width="1212" height="217" key="GridCell.Tab.0.center" timestamp="1586598355894">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1212" height="217" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1586598355894" />
+    <state width="1212" height="217" key="GridCell.Tab.0.left" timestamp="1586598355894">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1212" height="217" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1586598355894" />
+    <state width="1212" height="217" key="GridCell.Tab.0.right" timestamp="1586598355895">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1212" height="217" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1586598355895" />
+    <state x="415" y="252" key="com.intellij.ide.util.TipDialog" timestamp="1586608484801">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="415" y="252" key="com.intellij.ide.util.TipDialog/0.0.1440.860@0.0.1440.860" timestamp="1586608484801" />
+    <state x="376" y="190" key="run.anything.popup" timestamp="1586550740197">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="376" y="190" key="run.anything.popup/0.0.1440.860@0.0.1440.860" timestamp="1586550740197" />
+  </component>
+</project>
